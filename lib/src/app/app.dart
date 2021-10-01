@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      title: 'Test App',
       theme: ThemeData(
         primarySwatch: Colors.lightGreen,
         textTheme: GoogleFonts.poppinsTextTheme(),
